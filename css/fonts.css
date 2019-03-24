@@ -1,7 +1,14 @@
 .main-text{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: aliceblue;
 }
-h2{
+.main-text h1{
     margin: 0px;
+    font-size: 72px;
+}
+
+.main-text h3{
+    margin: 0px;
+    font-size: 48px;
 }

@@ -7,7 +7,11 @@
         height: 50%;
         background-color: rgb(255, 100, 120);
     }
-    .main-text h2 {
+    .main-text {
+        padding-top: 18%;
+    }
+    /* -- TEXT ANIMATION STUFF *BEGIN* -- */
+    .main-text h1 {
         -webkit-animation: fadein 5s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 5s;
@@ -18,16 +22,17 @@
         /* Opera < 12.1 */
         animation: fadein 5s;
     }
-    .main-text p {
-        -webkit-animation: fadein 10s;
+    .main-text h3 {
+        opacity: 0;
+        -webkit-animation: fadein 2s ease-in 2s forwards;
         /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadein 10s;
+        -moz-animation: fadein 2s ease-in 2s forwards;
         /* Firefox < 16 */
-        -ms-animation: fadein 10s;
+        -ms-animation: fadein 2s ease-in 2s forwards;
         /* Internet Explorer */
-        -o-animation: fadein 10s;
+        -o-animation: fadein 2s ease-in 2s forwards;
         /* Opera < 12.1 */
-        animation: fadein 10s;
+        animation: fadein 2s ease-in 2s forwards;
     }
     @keyframes fadein {
         from {
@@ -73,14 +78,17 @@
             opacity: 1;
         }
     }
-    /* ---------------------------- MIDDLE BOX---------------------------- */
-    .middle-box {
-        top: 95%;
+    /* -- TEXT ANIMATION STUFF *END* -- */
+
+    /* ---------------------------- MIGGLE LOGO ---------------------------- */
+    #logo-img {
         position: absolute;
-        width: 500px;
-        height: 100px;
-        margin-left: 35%;
-        background-color: white;
+        top: 93%;
+        left: 40%;
+        right: 40%;
+        width: 300px;
+        height: auto;
+
     }
     /* ---------------------------- BOTTOM HALF ---------------------------- */
     .bottom-half {
