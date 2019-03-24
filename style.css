@@ -14,11 +14,12 @@ body{
     text-align: center; 
     font-family: Arial, Helvetica; 
     color: #ffffff;
-    height: 10%; 
+    height: 8%; 
 
 }
 .about-us-opening h1{
     padding: 70px;
+    font-weight: lighter;
 }
 .about-us-background{
     color: #404040;
