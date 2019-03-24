@@ -2,14 +2,18 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     body {
-        height: 2000px;
+        height: 1900px;
     }
     /* ---------------------------- TOP HALF ---------------------------- */
     .top-half {
-        height: 40%;
+        height: 30%;
         background-color: rgb(255, 100, 120);
     }
-    .main-text h2 {
+    .main-text {
+        padding-top: 50%;
+    }
+    /* -- TEXT ANIMATION STUFF *BEGIN* -- */
+    .main-text h1 {
         -webkit-animation: fadein 5s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 5s;
@@ -19,17 +23,19 @@
         -o-animation: fadein 5s;
         /* Opera < 12.1 */
         animation: fadein 5s;
+
     }
-    .main-text p {
-        -webkit-animation: fadein 10s;
+    .main-text h3 {
+        opacity: 0;
+        -webkit-animation: fadein 2s ease-in 2s forwards;
         /* Safari, Chrome and Opera > 12.1 */
-        -moz-animation: fadein 10s;
+        -moz-animation: fadein 2s ease-in 2s forwards;
         /* Firefox < 16 */
-        -ms-animation: fadein 10s;
+        -ms-animation: fadein 2s ease-in 2s forwards;
         /* Internet Explorer */
-        -o-animation: fadein 10s;
+        -o-animation: fadein 2s ease-in 2s forwards;
         /* Opera < 12.1 */
-        animation: fadein 10s;
+        animation: fadein 2s ease-in 2s forwards;
     }
     @keyframes fadein {
         from {
@@ -75,17 +81,34 @@
             opacity: 1;
         }
     }
-    /* ---------------------------- MIDDLE BOX---------------------------- */
-    .middle-box {
-        top: 85%;
+    /* -- TEXT ANIMATION STUFF *END* -- */
+    /* ---------------------------- MIGGLE LOGO ---------------------------- */
+    #logo-img {
         position: absolute;
-        width: 500px;
-        height: 100px;
-        background-color: white;
+        top: 50%;
+        left: 30%;
+        right: 35%;
+        width: 200px;
+        height: auto;
     }
     /* ---------------------------- BOTTOM HALF ---------------------------- */
     .bottom-half {
         height: 50%;
         background-color: rgb(194, 163, 163);
+    }
+    .container-links {
+        padding-top: 100px;
+    }
+    .thirds-container {
+        display: inline-block;
+        justify-content: center;
+        height: 300px;
+    }
+    .thirds-container img {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
