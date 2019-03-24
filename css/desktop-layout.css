@@ -21,6 +21,7 @@
         -o-animation: fadein 5s;
         /* Opera < 12.1 */
         animation: fadein 5s;
+
     }
     .main-text h3 {
         opacity: 0;
@@ -79,32 +80,29 @@
         }
     }
     /* -- TEXT ANIMATION STUFF *END* -- */
-
     /* ---------------------------- MIGGLE LOGO ---------------------------- */
     #logo-img {
         position: absolute;
-        top: 93%;
-        left: 40%;
-        right: 40%;
-        width: 300px;
+        top: 80%;
+        left: 35%;
+        right: 35%;
+        width: 500px;
         height: auto;
-
     }
     /* ---------------------------- BOTTOM HALF ---------------------------- */
     .bottom-half {
         height: 50%;
         background-color: rgb(194, 163, 163);
     }
-    .container-links{
-        padding-top: 200px;
+    .container-links {
+        padding-top: 300px;
     }
-    .thirds-container{
+    .thirds-container {
         display: inline-block;
         width: 33%;
         height: 300px;
     }
-
-    .thirds-container img{
+    .thirds-container img {
         width: 150px;
         height: auto;
         display: block;
