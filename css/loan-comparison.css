@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 100, 120);
+}
+.loan-opening h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding-left: 70px; 
+    padding-right: 70px; 
+    text-align: center; 
+
+}
+.loan-opening p{
+    font-size: 24px; 
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+.loan-form{
+font-family: Arial, Helvetica, sans-serif;
+text-transform: lowercase; /* Make text all uppercase */
+color: #fff; /* White text */
+}
+.user-income{
+    text-align: center; 
+    padding-bottom: 20px;   
+}
+.loan-amount{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.prev-payment{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.cos-income{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.cos-credit-score{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.submit-button{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
