@@ -99,7 +99,9 @@
     }
     .thirds-container {
         display: inline-block;
-        width: 33%;
+        justify-content: center;
+        width: 31%;
+        margin: 10px;
         height: 300px;
     }
     .thirds-container img {
